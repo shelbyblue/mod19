@@ -119,3 +119,10 @@ footer a {
   display: block;
   margin: 0 1rem 3rem 1rem;
 }
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
